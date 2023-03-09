@@ -14,6 +14,6 @@ public class SelfRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(Vector3.up, Vector3.zero, angularSpeed);
+        transform.RotateAround(Vector3.zero, Vector3.up, angularSpeed);
     }
 }
