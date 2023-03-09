@@ -15,6 +15,5 @@ public class SelfRotation : MonoBehaviour
     void Update()
     {
         transform.RotateAround(Vector3.up, Vector3.zero, angularSpeed);
-        Debug.Log("Fukamitest");
     }
 }
